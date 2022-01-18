@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body, html { 
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h4{ 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 0;
+}
+h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 50px;
+}
+h3{
+    font-weight: bold;
+    font-size: 30;
+}
+.hero-banner {
+    background-color: #007fff;
+    height: 100vh;
+    padding: 50px 20px;
+    position: relative;
+}
+.hero-banner h4 {
+    color:white;
+    margin: 0;
+    }
+.hero-banner h1{ 
+    color: white;
+    margin: 14px 0 20px;
+}
+.hero-banner h3{ 
+    color: white;
+  margin: 0 0 35px;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.character2{
+    background: url(/characters/sticky-guy-1.png) no-repeat 0 0;
+    background-size:contain;
+     position:absolute; top:10%; right :220px;
+     width:363px;
+     height:344px;
+}
+.character1{
+    background: url(/characters/circle-guy.png) no-repeat 0 0;
+    background-size:contain;
+    width:309px;
+    height: 371px;
+    position:absolute; top: 8%; right : 140px;
+    transform: rotate(15deg);
+}
+.character3{
+    background:url(/characters/eish-guy.png) no-repeat 0 0;
+   background-size: contain;
+    width: 297px;
+    height: 286px;
+    position:absolute; bottom: 220px; right : 104px
+}
+
+a.cta,
+button.cta{ 
+font-size: 30px;
+font-weight:bold;
+color: white;
+background-color: #007fff;
+display: inline-block;
+box-shadow: 0 0 0 10px rgba( 0,127,255,.15);
+padding: 20px 30px;
+border-radius:10px;
+text-decoration: none;
+margin-top: 30px;
+}
+a.cta.alt, button.cta.alt{
+    background-color:#ffd400;
+    color: #200303;
+    box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+
+}
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+}
+nav .logo{
+display: block;
+width: 300px;
+height:40px;
+position: absolute; top: 50%; left:0;
+margin-top: -20px;
+margin-left:30px;
+background: url(/characters/logo.png) no-repeat 0 0;
+background-size:  100%;
+}
+nav ul {
+    padding: 0 20px 0 0;
+    margin: 0 0;
+    display: block;
+    float: right;
+}
+
+nav ul li { 
+    display: inline-block;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #111;
+    text-decoration: none;
+    padding: 35px 10px;
+    line-height: 30px;
+}
+.more-info{
+        text-align:center;
+    }
+.more-info p{
+    margin: 18px 0 35px;
+}
+.more-info h2{
+
+    margin: 50px 0 0px;
+}
+.highlight{
+    background-color:#FFADf9 ;
+    color:#FF3300;
+    padding: 5PX 10px;
+    line-height: 50px;
+    display: inline;
+    font-weight: 800px;
+}
+.sep{
+width: 470;
+height: 10px;
+background-color: #111;
+margin: 70px auto;
+}
+.story h3{
+    font-size:40px;
+}
+.nb-list{
+    width: 470px;
+    padding: 20px 20PX 0 20px;
+    box-sizing: border-box;
+    background-color: #ededed;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.nb-list li{
+    height: 70px;
+    border-radius: 10px;
+    font-size: 30px;
+    color:#ffffff;
+    font-weight: bold;
+    display:block;
+    margin-bottom: 20px;
+    padding: 6PX 20PX;
+    box-sizing: border-box;
+    
+}
+.nb-list li.red{background-color:#FF3300;}
+.nb-list li.blue{background-color:#007FFF}
+.nb-list li.grey{background-color: rgba(0,0,0,.1);}
+.nb-list li.yellow{
+    background-color:#FFD400;
+    color: #111;}
+.nb-list li.pink{background-color:#FFADf9;}
+.nb-list li.salmon{background-color:#FA8072;}
+.footerimg{
+    text-align: center;
+}
+.p{display: inline-block;
+    size: 50px;
+    background-color:white;
+    color: #200303;
+    box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+}
+ .popup{
+     background-color:#007FFF;
+     padding: 20px;
+      display: none;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform:translate(-50%,-50%);
+ }
