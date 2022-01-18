@@ -25,7 +25,9 @@ var iwantin= document.getElementById('iwantin')
 //add an event listner to the button
 iwantin.addEventListener('click',function(e){
     var input= document.getElementById('name')
-    alert( 'Welcome  ' + input.value)
+    // alert( 'Welcome  ' + input.value)
+    alert(`welcome ${input.value}  we love and appreciate`)
+
     //grab the name the user input
 // make the prompt msg show
 })
